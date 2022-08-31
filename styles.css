@@ -71,6 +71,7 @@ button.signup{
     height: 400px;
     background-color: transparent;
     background-image: url(./pictures/ottoman.png);
+    flex-wrap:wrap;
 }
 
 .bolded{
@@ -109,6 +110,7 @@ button.signup{
     background-color: #1F2937;
     justify-content: center;
     gap: 30px;
+    flex-wrap:wrap;
 }
 
 .img{
@@ -175,6 +177,7 @@ button.signup{
     opacity: 50%;
     color: black;
     font-weight: bolder;
+    flex-wrap:wrap;
 }
 
 .quotebottom{
@@ -191,6 +194,7 @@ button.signup{
     padding-right: 500px;
     font-style: italic;
     font-weight: bolder;
+    flex-wrap:wrap;
 }
 
 .abovefooter{
