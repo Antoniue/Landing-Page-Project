@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-image: url("./pictures/riga.jpg");
+    background-color: #cccccc;
+   }
+
 a{
     text-decoration: none;
     color: white;
@@ -5,7 +20,7 @@ a{
 }
 
 button.signup{
-    width: 90px;
+    width: 100px;
     height: 30px;
     background-color:#3882F6;
     color: white;
@@ -13,11 +28,12 @@ button.signup{
     border-color: #3882F6;
     font-weight: bold;
     margin-top: 10px;
+    font-size: 15px;
 }
 
 .middleimg{
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: 250px;
     margin-right: 170px;
 }
 
@@ -49,25 +65,187 @@ button.signup{
 
 .belowheader{
     display: flex;
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     justify-content: center;
     align-items: center;
     height: 400px;
+    background-color: transparent;
+    background-image: url(./pictures/ottoman.png);
 }
 
 .bolded{
-    color: #F9FAF8;
+    color: #22380b;
     font-weight: bolder;
     font-size: 48px;
+    border-color: #1F2937;
+    border-radius: 15px;
 }
 
 .texts{
-    background-color: #1F2937;
-    color: #E5E7EB;
+    /*background-color: #1F2937; */
+    color: #000000;
     display: flex;
-    font-size: 18px;
+    font-size: 25px;
     flex-direction: column;
     width: 500px;
     margin-left: 300px;
     margin-right: 40px;
+    background-color: transparent;
+}
+
+.infotitle{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 38px;
+    color: white;
+}
+
+.items{
+    display: flex;
+    height: 400px;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img{
+    width: 200px;
+    height: 100px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    padding-top: 8px;
+    text-align: center;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    padding-top: 17px;
+    text-align: center;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.infos{
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+}
+
+.quote{
+    display: flex;
+    height: 250px;
+    font-size: xx-large;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    font-weight: bolder;
+}
+
+.quotebottom{
+    background-color: white;
+    opacity: 50%;
+    display: flex;
+    height: 100px;
+    font-size: xx-large;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.abovefooter{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.midabovefooter{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 40px;
+    padding-right: 40px;
+    gap: 60px;
+    border-radius: 9px;
+}
+
+.actiontext{
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.signtext{
+    color: white;
+}
+
+.revbutt{
+    width: 100px;
+    height: 30px;
+    background-color:#3882F6;
+    color: white;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white 10px solid;
+    border-width: 2px;
+    margin-right: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    height: 70px;
 }
